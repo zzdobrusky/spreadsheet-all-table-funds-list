@@ -1,0 +1,40 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  overflow-x: auto;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 10px;
+  /* min-width: 300px; */
+}
+
+th {
+  position: sticky;
+  top: 0; /* Don't forget this, required for the stickiness */
+  background-color: aqua;
+}
+
+td.totals {
+  padding-left: 25px;
+}
+
+.brackets {
+  position: sticky;
+  top: 0; /* Don't forget this, required for the stickiness */
+  background-color: blue;
+}
+
+.assetLabel {
+  background-color: yellow;
+  cursor: pointer;
+}
